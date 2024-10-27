@@ -9,6 +9,10 @@ pub type Coordinate = u16;
 pub type Height = u16;
 pub type Depth = u16;
 pub type Temperature = f32;
+pub type ID = u32;
+pub type Label = String;
+pub type Name = String;
+
 
 // Location 
 pub struct Location{

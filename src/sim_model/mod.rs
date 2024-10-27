@@ -13,3 +13,9 @@ pub mod object_model;
 pub mod life_model;
 pub mod system_model;
 pub mod spatial_model;
+
+
+// shared data structures...
+
+type ID = u32;
+type Label = String;

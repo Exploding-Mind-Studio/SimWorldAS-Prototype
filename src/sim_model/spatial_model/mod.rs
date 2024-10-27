@@ -3,6 +3,10 @@
 
 // central config for all /spatial_model/ folder modules...
 
+
+pub mod atmosphere_model;
+pub mod geosphere_model;
+pub mod hydrosphere_model;
 pub mod landscape_model;
 pub mod location_model;
 pub mod place_model;

@@ -8,9 +8,16 @@
 // - Game State (dashboard/onground observer/interferer/impersonator)
 // - Game Flow 
 
+use crate::sim_model::world_model::*;
 
 // Instantiate core World environment
+pub fn init_world() -> world_model {
+
+}
 
 // Generate dynamic content
 
 // or Load saved World Model
+pub fn load_world(filename: String) -> world_model {
+
+}

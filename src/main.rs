@@ -5,6 +5,7 @@
 pub mod sim_engine;
 pub mod sim_model;
 pub mod sim_game;
+pub mod config;
 
 fn main() {
     let greeting = "

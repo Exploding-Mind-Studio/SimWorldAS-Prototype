@@ -9,5 +9,4 @@
     Think of cities, landmarks, landscape features humans and creatures might orient on.
 */
 
-
-pub struct SimPlace{}
+pub struct SimHydrosphere{}
