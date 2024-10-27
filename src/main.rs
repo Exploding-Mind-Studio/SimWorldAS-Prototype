@@ -13,7 +13,7 @@ fn main() {
             
         What you will see in this prototype implementation:
         - SimWorld model: Spatial, Atmosphere, Objects, Organisms, Plants, Creatures, People
-        - SimEngine execution: Time, Dynamics Activation
+        - SimEngine executive: Time, Dynamics Activation
         - SimGame: User Experience
         
         (c) 10/2024
