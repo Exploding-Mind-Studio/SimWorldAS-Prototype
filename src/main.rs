@@ -1,0 +1,18 @@
+// Main Program for SimWorldAS-Prototype
+// BD 2024-10-27 : Initial Version (adapted from SimWorld24-Rust)
+
+fn main() {
+    let greeting = "
+        Exploding Mind Studio presents... SimWorldAS Prototype
+            implemented in pure Rust 
+            
+        What you will see in this prototype implementation:
+        - SimWorld model: Spatial, Atmosphere, Objects, Organisms, Plants, Creatures, People
+        - SimEngine execution: Time, Dynamics Activation
+        - SimGame: User Experience
+        
+        (c) 10/2024
+    ";
+    
+    println!("{}\n", greeting);
+}
