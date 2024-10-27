@@ -18,24 +18,4 @@ pub struct Location{
 }
 
 
-// Landscape
-pub struct Landscape{
-    cell_type: LandscapeType,
-    cell: Vec<LandscapeCell> 
-}
 
-pub struct LandscapeCell{
-    x_cor: Coordinate,
-    y_cor: Coordinate,
-    properties: Vec<CellProperty>
-}
-
-pub enum LandscapeType{
-    Earth(Height),
-    Water(Depth),
-    Atmosphere
-}
-
-pub struct CellProperty{
-    temperature: Temperature
-}
