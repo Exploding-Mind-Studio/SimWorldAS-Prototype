@@ -22,6 +22,6 @@ pub enum LandscapeType{
 
 pub struct CellProperty{
     temperature: Temperature
-    density: u8;
-    
+    density: u8
+
 }
