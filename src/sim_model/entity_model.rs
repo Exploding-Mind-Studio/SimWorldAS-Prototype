@@ -5,13 +5,13 @@
 // - generic template, not ever instantiated by itself
 
 
-type Coordinate = u16;
-type Height = u16;
-type Depth = u16;
-type Temperature = f32;
+pub type Coordinate = u16;
+pub type Height = u16;
+pub type Depth = u16;
+pub type Temperature = f32;
 
 // Location 
-struct Location{
+pub struct Location{
     x_cor: Coordinate,
     y_cor: Coordinate,
     height: Height
@@ -19,23 +19,23 @@ struct Location{
 
 
 // Landscape
-struct Landscape{
+pub struct Landscape{
     cell_type: LandscapeType,
     cell: Vec<LandscapeCell> 
 }
 
-struct LandscapeCell{
+pub struct LandscapeCell{
     x_cor: Coordinate,
     y_cor: Coordinate,
     properties: Vec<CellProperty>
 }
 
-enum LandscapeType{
+pub enum LandscapeType{
     Earth(Height),
     Water(Depth),
     Atmosphere
 }
 
-struct CellProperty{
+pub struct CellProperty{
     temperature: Temperature
 }
