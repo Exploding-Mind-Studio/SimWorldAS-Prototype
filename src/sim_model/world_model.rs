@@ -3,6 +3,20 @@
 
 use crate::sim_model::*;
 
+// World Properties...
+
+pub type Coordinate = u16;
+pub type Height = u16;
+pub type Depth = u16;
+pub type Temperature = f32;
+pub type ID = u32;
+pub type Label = String;
+pub type Name = String;
+pub type Class = String;
+pub type Origin = String;
+pub type TimeStamp = u64;
+pub type Level = f32;
+
 pub struct SimWorld{
     id: ID,
     label: Label

@@ -12,3 +12,14 @@
 //   - limited cognitive: memory, primitive goal pursuit
 //   - environmental impact (symbiotic dynamics)
 //   - predator/prey/vulture roles
+
+
+use crate::sim_model::entity_model::*;
+use crate::sim_model::life_model::organism_model::*;
+
+pub struct SimCreature{
+    id: Identity,
+    location: Location,
+    health: HealthLevel,
+    lifecycle_stage: LifeCycle   
+}

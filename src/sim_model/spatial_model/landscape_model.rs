@@ -1,6 +1,8 @@
 // LANDSCAPE Model for SimWorldAS-Prototype
 // BD 2024-10-27 : Initial Version (adapted from SimWorld24-Rust)
 
+
+use crate::sim_model::world_model::*;
 use crate::sim_model::entity_model::*;
 
 // Landscape
