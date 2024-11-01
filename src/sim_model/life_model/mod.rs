@@ -7,4 +7,3 @@ pub mod organism_model;
 pub mod microbes_model;
 pub mod plant_model;
 pub mod creature_model;
-pub mod human_model;

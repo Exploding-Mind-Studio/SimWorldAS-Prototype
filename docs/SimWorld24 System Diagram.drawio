@@ -1,0 +1,71 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.2">
+  <diagram name="Page-1" id="v4B5kp2a3wThJGpyLibA">
+    <mxGraphModel dx="1426" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eeeyzdLkQL6xJkcmhthS-1" value="&lt;b style=&quot;font-size: 24px;&quot;&gt;SimWorld24&amp;nbsp;&lt;/b&gt;&lt;div style=&quot;font-size: 24px;&quot;&gt;System Architecture&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry width="290" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="eeeyzdLkQL6xJkcmhthS-2" value="SimEngine" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="320" y="560" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eeeyzdLkQL6xJkcmhthS-3" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Player&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="80" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eeeyzdLkQL6xJkcmhthS-5" value="Game App" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="320" y="400" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eeeyzdLkQL6xJkcmhthS-6" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.218;entryY=1.025;entryDx=0;entryDy=0;exitX=0.218;exitY=-0.017;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="eeeyzdLkQL6xJkcmhthS-2" target="eeeyzdLkQL6xJkcmhthS-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="540" as="sourcePoint" />
+            <mxPoint x="170" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eeeyzdLkQL6xJkcmhthS-7" value="Control &amp;amp;&amp;nbsp;&lt;div&gt;Presentation&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eeeyzdLkQL6xJkcmhthS-6">
+          <mxGeometry x="0.3998" y="-1" relative="1" as="geometry">
+            <mxPoint x="-5" y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eeeyzdLkQL6xJkcmhthS-8" value="Persisted Simulation&amp;nbsp;&lt;div&gt;State&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="680" y="560" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eeeyzdLkQL6xJkcmhthS-9" value="Change &amp;amp; Event Logs" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="560" y="680" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eeeyzdLkQL6xJkcmhthS-10" value="Saved Games" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="680" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eeeyzdLkQL6xJkcmhthS-11" value="DATA" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="710" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eeeyzdLkQL6xJkcmhthS-12" value="Interfaces" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="150" y="500" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eeeyzdLkQL6xJkcmhthS-13" value="User Interface" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="320" y="240" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eeeyzdLkQL6xJkcmhthS-14" value="Presentation" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="eeeyzdLkQL6xJkcmhthS-5" target="eeeyzdLkQL6xJkcmhthS-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="400" as="sourcePoint" />
+            <mxPoint x="250" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eeeyzdLkQL6xJkcmhthS-15" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.88;exitY=1.013;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.88;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eeeyzdLkQL6xJkcmhthS-13" target="eeeyzdLkQL6xJkcmhthS-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="390" as="sourcePoint" />
+            <mxPoint x="560" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eeeyzdLkQL6xJkcmhthS-16" value="Control" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eeeyzdLkQL6xJkcmhthS-15">
+          <mxGeometry x="-0.152" y="6" relative="1" as="geometry">
+            <mxPoint x="-12" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eeeyzdLkQL6xJkcmhthS-17" value="World Model Configuration" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="680" y="250" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

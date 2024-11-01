@@ -7,12 +7,14 @@
 // Distinction between the designed natural world, and the perceived world by NPC Creatures
 // - with some kind of matching between perceived concepts and the natural manifestation
 
-// Example prototypes..
 
 use crate::sim_model::{
     world_model::*,
     entity_model::*
 };
+
+
+// Example prototypes..
 
 pub struct House{}
 pub struct Settlement{}
