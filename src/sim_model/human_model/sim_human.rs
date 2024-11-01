@@ -74,6 +74,8 @@ pub struct SimHuman{
 // Does Life Cycle stage advance really change anything in the Entity structure by itself?
 // new, emerged entity, should point back to Lineage, and contain members, if it is a cluster
 // like so...
+/* 
 pub struct simTribe{
     members: Vec<SimHuman>
 }
+*/

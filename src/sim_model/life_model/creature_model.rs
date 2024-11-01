@@ -83,11 +83,21 @@ pub enum Speed{}
 
 pub enum Skill{}
 
-
+pub enum CreatureCategory{
+    Herbivore,
+    Carnivore,
+    Scavenger
+}
 
 pub struct SimCreature{
     id: Identity,
     location: Location,
     health: HealthLevel,
-    lifecycle_stage: LifeCycle   
+    lifecycle_stage: LifeCycle ,  
+    creature_category: CreatureCategory
 }
+
+pub trait Eats{}
+pub trait Rests{}
+pub trait Mates{}
+pub trait Birthes{}
