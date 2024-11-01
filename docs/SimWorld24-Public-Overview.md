@@ -2,13 +2,13 @@ SimWorld24 - A Simulation Game in Development - by Exploding Mind Studio (c) 202
 
 # Overview
 
-WHAT is it?
+**WHAT is it?**
 
 The project with the working title "SimWorld ANTHROPOSPHERE" aims to design and implement a computer game around simulating the historic evolution of human cultures on planet earth.
 
 
 
-WHY are we doing it?
+**WHY are we doing it?**
 
 We are building a game that we would like to play, that does not exist in this form.
 
@@ -18,7 +18,7 @@ For the intellectual challenge to do something most people respond to with "it c
 
 
 
-HOW are we going about it?
+**HOW are we going about it?**
 
 Using inspirations from complexity theory, agent-based modeling & simulation methods, and traditional large scale open world game mechanics and god game genre.
 
