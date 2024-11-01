@@ -7,3 +7,22 @@
 //   - growth patterns
 //   - environmental impact (cross-system metabolism)
 //   - clustering (e.g. meadows, forests)
+
+use crate::sim_model::{
+    world_model::*,
+    entity_model::*,
+    life_model::organism_model::*,
+};
+
+pub struct SimPlant{
+    id: Identity
+}
+
+pub enum PlantClass{ // intended use by SimPlant::Identity::Class
+    Grass,
+    Bush,
+    Tree, 
+    Flower,
+    Fruit,
+    Vegetable
+}

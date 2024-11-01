@@ -16,6 +16,9 @@ fn main() {
         - SimWorld model: Spatial, Atmosphere, Objects, Organisms, Plants, Creatures, People
         - SimEngine executive: Time, Dynamics Activation
         - SimGame: User Experience
+
+        Current Stage of this Build:
+        -- mostly focused on establishing data structures for Models, Systems
         
         (c) 10/2024
     ";

@@ -13,9 +13,11 @@ pub type ID = u32;
 pub type Label = String;
 pub type Name = String;
 pub type Class = String;
+// obsolete here ... pub type Lineage = String;
 pub type Origin = String;
 pub type TimeStamp = u64;
 pub type Level = f32;
+pub type Source = String;
 
 pub struct SimWorld{
     id: ID,

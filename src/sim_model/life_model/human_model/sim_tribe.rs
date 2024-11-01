@@ -14,13 +14,9 @@
 //   - cognitive: goal planning, sybolic communication, use of tools
 //   - complex social relations & behavior
 
-
-use crate::sim_model::{
-    world_model::*,
-    entity_model::*,
-    life_model::organism_model::*,
-    life_model::creature_model::*
-};
+use crate::sim_model::entity_model::*;
+use crate::sim_model::life_model::organism_model::*;
+use crate::sim_model::life_model::creature_model::*;
 
 /* 
 pub enum Cognition{
@@ -42,8 +38,8 @@ pub enum Cognition{
     
 pub struct SimHuman{
     id: Identity,
-    current_location: Location,
-    current_health: HealthLevel,
+    location: Location,
+    health: HealthLevel,
     lifecycle_stage: LifeCycle,
     capabilities: Vec<Capabilities>,
 }
@@ -53,12 +49,3 @@ pub struct SimHuman{
 // D2 = Clustering (aggregations of active entities make things more complex, as they interact)
 // D3 = Leven of Detail complexity increasing (by filling in more features, logic -> combinatorial explosion)
 
-// Challenge: how to manifest the Emergence transition in data structures?
-// Via Lineage? Who points to whom?
-// New clustered/life cyle advanced stage with new capabilities / more detailed LoD?
-// Does Life Cycle stage advance really change anything in the Entity structure by itself?
-// new, emerged entity, should point back to Lineage, and contain members, if it is a cluster
-// like so...
-pub struct simTribe{
-    members: Vec<SimHuman>
-}
