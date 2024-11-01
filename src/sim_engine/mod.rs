@@ -13,6 +13,21 @@
 // (3 Complexity Dimensions: life cycle, cluster, level of detail)
 // and looks if conditions are given to give rise to emergent features
 // to be manifested as higher order SimEntities (spawned by the next EmergenceFacilitator)
+
+pub struct SimRuntime{ // the simulation runtime
+
+}
+pub trait SimRunLoop{}
+pub trait SimTimeTick{}
+pub trait AdvanceTime{}
+ pub struct StateChangeLog{}
+ trait LogStateChang{}
+
+ pub struct EventLog{}
+ trait LogEvent{}
+
+
+
 pub struct EmergenceMonitor{}
 
 
