@@ -17,5 +17,3 @@ pub mod spatial_model;
 
 // shared data structures...
 
-type ID = u32;
-type Label = String;

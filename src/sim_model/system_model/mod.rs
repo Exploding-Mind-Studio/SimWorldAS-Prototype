@@ -9,3 +9,11 @@
 // - weather system (heat, air pressure, moisture, winds, precipitation, evaporation, fog, clouds)
 // - water cycle
 // - universe/sky (observable star/planet constellations)
+
+pub mod metaphysics_system;
+pub mod alchemy_system;
+pub mod water_system;
+pub mod weather_system;
+pub mod sun_system;
+pub mod moon_system;
+pub mod sky_system;

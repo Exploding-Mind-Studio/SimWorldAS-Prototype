@@ -9,7 +9,10 @@
     across multiple scale levels.
 */
 
-use crate::sim_model::system_model::*;
+use crate::sim_model::{
+    world_model::*,
+    system_model::*
+};
 
 pub struct Element{
     name: Name

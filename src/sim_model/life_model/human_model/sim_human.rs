@@ -22,7 +22,7 @@ use crate::sim_model::{
     life_model::creature_model::*
 };
 
-/* 
+
 pub enum Cognition{
     RecognizeEvent,
     RecognizeObject,
@@ -38,14 +38,29 @@ pub enum Cognition{
     ProblemSolve
     
 }
-*/
-    
+
+pub enum Emotion{
+    Calm, // relaxed
+    Surprise,
+    Disgust,
+    Fear,
+    Anger,  // contempt, envy
+    Sadness, 
+    Joy, // Happy
+    Shame,
+    Grief, // mourning loss
+    // biblical...
+    Greed,
+    Envy
+}
+
 pub struct SimHuman{
     id: Identity,
     current_location: Location,
     current_health: HealthLevel,
     lifecycle_stage: LifeCycle,
     capabilities: Vec<Capabilities>,
+    emotional_state: Vec<Emotion>
 }
 
 // TODO: implement the 3 dimensional complexity scale (see paper notes from 2024-10-30)

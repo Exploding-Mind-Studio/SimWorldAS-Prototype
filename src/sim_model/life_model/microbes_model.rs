@@ -7,3 +7,6 @@
 //   - Viruses
 //   - Mold
 // Obviously not modeling each individual entity, but the effects of clusters/patterns of their occurrence!
+
+// placeholder in world model for now - no priority to be implemented any time soon
+// but eventuall relevant!
