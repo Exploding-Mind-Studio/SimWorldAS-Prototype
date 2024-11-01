@@ -14,3 +14,4 @@ pub mod energy_resources;
 
 // shared data structures...
 
+pub struct SimResource{}

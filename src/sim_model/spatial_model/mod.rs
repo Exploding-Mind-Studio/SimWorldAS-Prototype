@@ -9,7 +9,6 @@ pub mod geosphere_model;
 pub mod hydrosphere_model;
 pub mod landscape_model;
 pub mod location_model;
-pub mod place_model;
 pub mod area_model;
 pub mod zone_model;
 

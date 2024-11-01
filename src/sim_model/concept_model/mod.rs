@@ -7,6 +7,9 @@
 // Distinction between the designed natural world, and the perceived world by NPC Creatures
 // - with some kind of matching between perceived concepts and the natural manifestation
 
+pub mod place_model;
+pub mod tools_model;
+
 
 use crate::sim_model::{
     world_model::*,

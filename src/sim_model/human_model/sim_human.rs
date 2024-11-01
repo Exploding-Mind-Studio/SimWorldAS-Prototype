@@ -63,6 +63,8 @@ pub struct SimHuman{
     emotional_state: Vec<Emotion>
 }
 
+
+
 // TODO: implement the 3 dimensional complexity scale (see paper notes from 2024-10-30)
 // D1 = Life Cycle (Entities get more complex by growing to maturity after creation)
 // D2 = Clustering (aggregations of active entities make things more complex, as they interact)
