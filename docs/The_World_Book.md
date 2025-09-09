@@ -10,7 +10,7 @@ The other books in the series are:
 
 ## Table of Contents ##
 
-- [Overview of the World Model](Overview of World Model)
+- [Overview of the World Model](#overview-world-model)
 - Genesis (Inception) of the World
 - World Structure
 - World Logic
@@ -19,4 +19,4 @@ The other books in the series are:
 
 ## Chapters ##
 
-### Overview of World Model ###
+### Overview of World Model {#overview-world-model}
