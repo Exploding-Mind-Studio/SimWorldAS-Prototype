@@ -29,4 +29,4 @@ The other books in the series are:
 
 ## Chapters ##
 
-### Overview of World Model {#overview-world-model}
+Overview World Model {#overview-world-model}
