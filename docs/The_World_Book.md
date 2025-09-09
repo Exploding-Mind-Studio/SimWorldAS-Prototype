@@ -29,4 +29,8 @@ The other books in the series are:
 
 ## Chapters ##
 
-Overview World Model {#overview-world-model}
+### Overview World Model 
+Brief description what world model is,
+what it is made of (components),
+how they releate (structure),
+what properties they have...
