@@ -34,3 +34,6 @@ Brief description what world model is,
 what it is made of (components),
 how they releate (structure),
 what properties they have...
+The "World Model" is the definition of 
+space, elements, components, their relationships/connections, rules/logic for change.
+The definition of the world model is articulated in "SimEntities", with identity, structure, properties, behavior, and interfaces.
