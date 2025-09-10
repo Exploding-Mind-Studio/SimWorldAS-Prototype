@@ -11,19 +11,13 @@ The other books in the series are:
 ## Table of Contents ##
 
 - [Overview of the World Model](#overview-world-model)
-- Genesis (Inception) of the World
 - World Structure
 - World Logic
 - World Evolution
--
--
--
--
--
--
--
--
--
+- Genesis (Inception) of the World
+- Player's Options to Create World Model ahead of actual game
+- Player's Optionst to modify World Model as part of Game Play (God mode)
+
 
 
 
