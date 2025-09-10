@@ -20,6 +20,7 @@ The other books in the series are:
 
 ### Overview ###
 People are the simulated humans, both the individual persons, characters, as well as their collectives, such as tribes/societies.
+Just as any other SimEntity in SimWorld, the simulated entity of a "SimPerson" is implemented with Identity, Structure, Properties, Behavior, and Interfaces.
 
 ### Individuals ###
 People as individuals have a life cycle, metabolism, and pursuits (desires, goals, aspirations, preferences), traits, (dis)abilities, (learned or innate) skills, connections (social, to other people), identity, heritage.
